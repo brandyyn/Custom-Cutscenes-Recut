@@ -1,0 +1,75 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 05/10/24 03:47
+Description: Unexpected error
+
+java.lang.RuntimeException: java.io.FileNotFoundException: ccsfiles:textures/gui/102_105_114_101.gif
+	at com.gendeathrow.cutscene.client.render.AnimTexture.<init>(AnimTexture.java:148)
+	at com.gendeathrow.cutscene.SceneRender.ActorObject.init(ActorObject.java:163)
+	at com.gendeathrow.cutscene.SceneRender.SegmentObject.init(SegmentObject.java:38)
+	at com.gendeathrow.cutscene.SceneRender.SceneObject.init(SceneObject.java:52)
+	at com.gendeathrow.cutscene.client.gui.CutSceneGui.initGui(CutSceneGui.java:70)
+	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:294)
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:865)
+	at com.gendeathrow.cutscene.client.ClientTickHandler.RenderTickEvent(ClientTickHandler.java:55)
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_35_ClientTickHandler_RenderTickEvent_RenderTickEvent.invoke(.dynamic)
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54)
+	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at cpw.mods.fml.common.FMLCommonHandler.onRenderTickEnd(FMLCommonHandler.java:340)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1069)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+Caused by: java.io.FileNotFoundException: ccsfiles:textures/gui/102_105_114_101.gif
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71)
+	at com.gendeathrow.cutscene.client.render.AnimTexture.<init>(AnimTexture.java:90)
+	... 22 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_411, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 659081832 bytes (628 MB) / 1350565888 bytes (1288 MB) up to 7423393792 bytes (7079 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJA	NotEnoughItems{1.0.3.74} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.3.74-dev.jar) 
+	UCHIJA	CodeChickenCore{1.0.4.29} [CodeChicken Core] (minecraft.jar) 
+	UCHIJA	MineTweaker3{3.3.1} [MineTweaker 3] (CraftTweaker-3.3.1.jar) 
+	UCHIJA	cutscene{GD_CCS_VER} [Custom Cutscenes] (modid-1.0.jar) 
+	UCHIJA	ActuallyAdditions{1.7.10-r21} [Actually Additions] (ActuallyAdditions-1.7.10-r21.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 560.94' Renderer: 'NVIDIA GeForce RTX 3070 Ti/PCIe/SSE2'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: NVIDIA GeForce RTX 3070 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
