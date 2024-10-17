@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3149a2c8-f83b-4930-b16b-a8eaf5e89fab" name="Changes" comment="" />
+    <list default="true" id="3149a2c8-f83b-4930-b16b-a8eaf5e89fab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge source.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/forge source.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge source.iws" beforeDir="false" afterPath="$PROJECT_DIR$/forge source.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,24 +75,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ForgeGradle Dev Env 1" type="f1a62948:ProjectNode" />
+                <item name="ForgeGradle Dev Env 1 - Custom Cutscenes" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ForgeGradle Dev Env 1" type="f1a62948:ProjectNode" />
+                <item name="ForgeGradle Dev Env 1 - Custom Cutscenes" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ForgeGradle Dev Env 1" type="f1a62948:ProjectNode" />
+                <item name="ForgeGradle Dev Env 1 - Custom Cutscenes" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ForgeGradle Dev Env 1" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="forgegradle" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -93,7 +96,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
@@ -115,31 +118,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build forge source.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build forge working version yay - Copy - Copy.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build forge working version yay - Copy.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build forge working version yay.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForgeGradle Dev Env 1 [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge source [assemble].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge source [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge source [jar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge source [setupDecompWorkspace].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge source [testClasses].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dev/ForgeGradle Dev Env 1/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Minecraft Client.executor": "Run",
+    "Gradle.Build forge source.executor": "Run",
+    "Gradle.Build forge working version yay - Copy - Copy.executor": "Run",
+    "Gradle.Build forge working version yay - Copy.executor": "Run",
+    "Gradle.Build forge working version yay.executor": "Run",
+    "Gradle.ForgeGradle Dev Env 1 [runClient].executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.forge source [assemble].executor": "Run",
+    "Gradle.forge source [build].executor": "Run",
+    "Gradle.forge source [jar].executor": "Run",
+    "Gradle.forge source [setupDecompWorkspace].executor": "Run",
+    "Gradle.forge source [testClasses].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/dev/ForgeGradle Dev Env 1/src/main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.forge source [build]">
     <configuration default="true" factoryName="Applet" type="Applet">
       <module name="" />

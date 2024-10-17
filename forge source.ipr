@@ -64,10 +64,10 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1.api.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1.main.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1.test.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.api.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.main.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.test.iml" filepath="$PROJECT_DIR$/ForgeGradle_Dev_Env_1_-_Custom_Cutscenes.test.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="17" project-jdk-type="JavaSDK">
@@ -109,6 +109,8 @@
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CustomCutscenesRecut" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src" vcs="Git" />
   </component>
   <component name="libraryTable">

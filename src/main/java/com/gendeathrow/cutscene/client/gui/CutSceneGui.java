@@ -98,9 +98,10 @@ public class CutSceneGui extends GuiScreen
     protected void keyTyped(char p_73869_1_, int p_73869_2_)
     {
 		
-		if(p_73869_2_ == Keyboard.KEY_SPACE)
+		if(p_73869_2_ == Keyboard.KEY_SPACE || p_73869_2_ == Keyboard.KEY_ESCAPE)
 		{
 
+			Minecraft.getMinecraft().getSoundHandler().stopSounds();
 			this.currentPhase += 1;
 			
 		}
